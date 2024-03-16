@@ -25,7 +25,7 @@ module.exports = {
     {
       name: "NEXTJS-USER",
       script: "node_modules/next/dist/bin/next",
-      args: "start -p 2000",
+      args: "start -p 4001",
       instances: RUN_ENV_MAP[argEnv].instances,
       exec_mode: "cluster",
       watch: false,
