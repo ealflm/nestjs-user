@@ -5,13 +5,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>USER PAGE 🐔</title>
       </Head>
 
       <main>
         <h1 className={styles.title}>Hello con con gà Thắng và Đạt</h1>
 
+        <p className={styles.description}>USER PAGE</p>
         <p className={styles.description}>Bắt đầu bằng cách nhấn nút</p>
 
         <a href="https://github.com/ealflm">
