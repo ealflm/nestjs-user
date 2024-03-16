@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: "NESTJS-ADMIN",
+      name: "NESTJS-USER",
       exec_mode: "cluster",
       instances: "max", // Or a number of instances
       script: "node_modules/next/dist/bin/next",
