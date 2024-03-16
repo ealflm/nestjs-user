@@ -14,11 +14,9 @@ export default function Home() {
 
         <p className={styles.description}>Bắt đầu bằng cách nhấn nút</p>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            // NEED TO CREATE A BUTTON HERE
-          </a>
-        </div>
+        <a href="https://github.com/ealflm">
+          <button className={styles.button}>Nhấn vào đây</button>
+        </a>
       </main>
 
       <footer>
