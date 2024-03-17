@@ -41,4 +41,19 @@ module.exports = {
       },
     },
   ],
+  deploy: {
+    production: {
+      user: "root",
+      host: "14.225.217.51",
+      key: "deploy.key",
+      ref: "origin/main",
+      repo: "https://github.com/ealflm/nextjs-user",
+      path: "~/repo/nextjs-user",
+      "post-deploy": "npm run deploy:prod",
+      env: {
+        NODE_ENV: "production",
+        DATABASE_ADDRESS: process.env.DATABASE_ADDRESS,
+      },
+    },
+  },
 };
