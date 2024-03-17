@@ -19,7 +19,6 @@ const RUN_ENV_MAP = {
 if (!(argEnv in RUN_ENV_MAP)) {
   argEnv = "prod";
 }
-
 module.exports = {
   apps: [
     {
