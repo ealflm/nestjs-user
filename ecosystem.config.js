@@ -44,7 +44,7 @@ module.exports = {
     production: {
       user: "root",
       host: "14.225.217.51",
-      key: "./ddeploy.key",
+      key: "deploy.key",
       ref: "origin/main",
       repo: "https://github.com/ealflm/nextjs-user",
       path: "/root/app/nextjs-user",
