@@ -28,7 +28,7 @@ jobs:
           echo ${{secrets.SSH_PRIVATE_KEY}}
           sudo chmod 600 ./deploy.key
           echo ${{secrets.SSH_KNOWN_HOSTS}}
-          echo Hello
+          echo HI
 
       # (optional - only needed if your config uses environment variables)
       - name: Create env file
