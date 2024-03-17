@@ -48,7 +48,7 @@ module.exports = {
       key: "/home/ealflm/deploy.key",
       ref: "origin/main",
       repo: "https://github.com/ealflm/nextjs-user",
-      path: "",
+      path: "/root/repo/nextjs-user",
       "post-deploy": "npm run deploy:prod",
       env: {
         NODE_ENV: "production",
